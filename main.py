@@ -6,7 +6,7 @@ from aiogram.dispatcher.filters import Text
 from freeGPT import Client
 from googletrans import Translator
 
-bot = Bot(token='6846549120:AAHWXClbIO1iBFl-NhKOeY9ukPfpgibtBSw')
+bot = Bot(token='TOKEN')
 dp = Dispatcher(bot)
 translator = Translator()
 text = " "
